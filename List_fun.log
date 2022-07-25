@@ -1,0 +1,56 @@
+root INFO 2022-07-25 23:06:36,540 reverse of list
+root INFO 2022-07-25 23:06:36,551 [{'key1': 'sudh', 234: [23, 45, 656]}, (234, 6657, 6), [345, 56, 87, 8, 98, 9], [23, 456, 67, 8, 78, 78], 7, 6, 5, 4, 3]
+root INFO 2022-07-25 23:06:36,551 length of the list is 
+root INFO 2022-07-25 23:06:36,551 9
+root INFO 2022-07-25 23:06:36,551 list multiply by num 2
+root INFO 2022-07-25 23:06:36,551 [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}, 3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}]
+root INFO 2022-07-25 23:06:36,551 list is append by 
+root INFO 2022-07-25 23:06:36,551 nagesh
+root INFO 2022-07-25 23:06:36,552 [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}, 'nagesh']
+root ERROR 2022-07-25 23:06:36,552 division by zero
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\PycharmProjects\ List_fucntion_using_OOPs\List_fun.py", line 57, in div
+    c=a/b
+ZeroDivisionError: division by zero
+root INFO 2022-07-25 23:06:36,568 extend the list by
+root INFO 2022-07-25 23:06:36,569 50
+root ERROR 2022-07-25 23:06:36,569 'int' object is not iterable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\PycharmProjects\ List_fucntion_using_OOPs\List_fun.py", line 67, in extend_list
+    self.list_name.extend(list1)
+TypeError: 'int' object is not iterable
+root INFO 2022-07-25 23:06:36,569 extend the list by
+root INFO 2022-07-25 23:06:36,569 [12, 13]
+root INFO 2022-07-25 23:06:36,569 [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}, 'nagesh', 12, 13]
+root INFO 2022-07-25 23:06:36,569 extend the list by
+root INFO 2022-07-25 23:06:36,569 ineuron
+root INFO 2022-07-25 23:06:36,569 [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}, 'nagesh', 12, 13, 'i', 'n', 'e', 'u', 'r', 'o', 'n']
+root INFO 2022-07-25 23:06:36,569 extend the list by
+root INFO 2022-07-25 23:06:36,569 ['ineuron']
+root INFO 2022-07-25 23:06:36,569 [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}, 'nagesh', 12, 13, 'i', 'n', 'e', 'u', 'r', 'o', 'n', 'ineuron']
+root INFO 2022-07-25 23:06:36,569 list before pop
+root INFO 2022-07-25 23:06:36,570 [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}, 'nagesh', 12, 13, 'i', 'n', 'e', 'u', 'r', 'o', 'n', 'ineuron']
+root INFO 2022-07-25 23:06:36,570 list after pop
+root INFO 2022-07-25 23:06:36,570 [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}, 'nagesh', 12, 13, 'i', 'n', 'e', 'u', 'r', 'o', 'n']
+root INFO 2022-07-25 23:06:36,570 element remove
+root INFO 2022-07-25 23:06:36,570 nagesh
+root INFO 2022-07-25 23:06:36,570 list after removing 
+root INFO 2022-07-25 23:06:36,570 nagesh
+root INFO 2022-07-25 23:06:36,570 [3, 4, 5, 6, 7, [23, 456, 67, 8, 78, 78], [345, 56, 87, 8, 98, 9], (234, 6657, 6), {'key1': 'sudh', 234: [23, 45, 656]}, 12, 13, 'i', 'n', 'e', 'u', 'r', 'o', 'n']
+root INFO 2022-07-25 23:06:36,570 discrding element
+root INFO 2022-07-25 23:06:36,570 3
+root ERROR 2022-07-25 23:06:36,570 'list' object has no attribute 'discard'
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\PycharmProjects\ List_fucntion_using_OOPs\List_fun.py", line 101, in discard_form_list
+    self.list_name.discard(a)
+AttributeError: 'list' object has no attribute 'discard'
+root INFO 2022-07-25 23:06:36,571 discrding element
+root INFO 2022-07-25 23:06:36,571 20
+root ERROR 2022-07-25 23:06:36,571 'list' object has no attribute 'discard'
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\PycharmProjects\ List_fucntion_using_OOPs\List_fun.py", line 101, in discard_form_list
+    self.list_name.discard(a)
+AttributeError: 'list' object has no attribute 'discard'
+root INFO 2022-07-25 23:06:36,571 [23, 456, 67, 8, 78, 78]
+root INFO 2022-07-25 23:06:36,571 [345, 56, 87, 8, 98, 9]
+root INFO 2022-07-25 23:06:36,571 {'key1': 'sudh', 234: [23, 45, 656]}
